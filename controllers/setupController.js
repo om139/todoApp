@@ -4,7 +4,7 @@ module.exports = function(app) {
     
    app.get('/api/setupTodos', function(req, res) {
        
-       // seed database
+       
        var starterTodos = [
            {
                username: 'test',
